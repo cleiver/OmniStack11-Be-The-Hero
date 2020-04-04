@@ -1,18 +1,44 @@
-# Be The Hero
+<h1 align="center">
+  Semana OmniStack 11
+</h1>
+<h2 align="center">
+    <img alt="Be The Hero" title="Be The Hero" src="frontend/src/assets/logo.svg" width="250px" />
+</h2>
 
-<img src="omnistack.png" alt="OmniStack" align="right">
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cleiver/OmniStack11-Be-The-Hero">
 
-A project developed during the [OmniStack week](https://rocketseat.com.br).
+  <img alt="Requires SQLite3" src="https://img.shields.io/badge/requires-SQLite 3-blue">
+
+  <img alt="License" src="https://img.shields.io/github/license/cleiver/OmniStack11-Be-The-Hero">
+</p>
+
+## The Project
+A project developed during the [OmniStack week](https://rocketseat.com.br). It consists of an application where ONGs and volunteers can meet and work together.
 
 The project is divided in 3 parts: back-end, front-end and mobile.
 
-## The back-end
+### The back-end
 
 This is where we have all the code to store the data. As this is a simple application developed during a week, we just have to groups of data and a simple and simulated login. It was developed as a REST API.
 
-## The front-end
+### The front-end
 
 The front-end was developed using ReactJS and it's composed of ONG registration and incidents registrations. It's mainly an interface for the ONGs.
+
+### Mobile app
+
+The mobile app was developed using React Native and [expo](https://expo.io). It's the interface for people that want to help ONGs. Here we have incidents listing and ways to contact the ONGs.
+
+## Technologies
+
+This project was developed using the following technologies:
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+
+## Screenshots
 
 [<img src="web_1.png" alt="ONG Registration" title="ONG Registration" />](web_1.png)
 
@@ -22,10 +48,25 @@ The front-end was developed using ReactJS and it's composed of ONG registration 
 
 [<img src="web_4.png" alt="Incident listing" title="Incident listing" />](web_4.png)
 
-## Mobile app
-
-The mobile app was developed using React Native and [expo](https://expo.io). It's the interface for people that want to help ONGs. Here we have incidents listing and ways to contact the ONGs.
-
 [<img src="mobile_1.png" alt="Incident listing" title="Incident listing" />](mobile_1.png)
 
 [<img src="mobile_2.png" alt="Incident detail" tile="Incident detail" />](mobile_2.png)
+
+## Developing Environment
+
+As this is all local, all you have to do is start each application:
+
+```
+cd backend
+npm start
+```
+
+```
+cd frontend
+npm start
+```
+
+```
+cd mobile
+npm start
+```
